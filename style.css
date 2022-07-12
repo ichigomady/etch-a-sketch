@@ -7,6 +7,7 @@
 body {
     font-family: 'Edu NSW ACT Foundation', cursive, sans-serif;
     margin: 0;
+    min-width: 858px;
 }
 
 .main-container {
@@ -27,11 +28,25 @@ body {
     align-items: center;
 }
 
+.color1 {
+    cursor: pointer;
+}
+
 .menu button {
-    width: 100px;
-    height: 30px;
-    padding: .5rem;
+    width: 200px;
+    height: 40px;
     margin: .3rem;
+    font-family: inherit;
+    font-size: large;
+    text-align: center;
+    background-color: beige;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menu button:hover {
+    background-color: rgb(255, 255, 255);
 }
 
 .draw-space {
@@ -43,8 +58,12 @@ body {
     justify-content: center;
     padding: 0;
     margin: 0;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
+input {
+    width: 100px;
+}
 .block {
     border: .1px solid rgb(80, 79, 79);
     cursor: pointer;
